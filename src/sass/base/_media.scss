@@ -1,0 +1,162 @@
+@media (max-width: 1200px){
+.header{
+    width: 900px;
+    margin-left: 20px;
+}
+.promo{
+        &__wrapper{
+            width: 900px;
+        }
+    }
+.advantages{
+        &__wrapper{
+            width: 900px;
+            margin-left: 20px;
+        }
+    }
+.title{
+    &_left{
+        margin-left: 20px;
+    }
+}
+.consultation{
+&__descr{
+    margin-left: 20px;
+}
+.feed-form{
+    margin-left: 20px;
+}
+}
+}
+@media (max-width: 991px){
+    .header{
+        width: 700px;
+        &__logo{
+            max-width: 90%;
+        }
+        &__phone{
+            font-size: 16px;
+        }
+        button{
+            width: 140px;
+        }
+        
+    }
+    .promo{
+        &__wrapper{
+            width: 700px;
+        }
+        &__header{
+            font-size: 34px;
+        }
+        &__subheader{
+            font-size: 18px;
+        }
+        &__icon{
+            font-size: 12px;
+        }
+        &__link{
+            font-size: 13px;
+        }
+    }
+    .button_main {
+        width: 250px;
+        height: 46px;
+        font-size: 13px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .advantages{
+        &__wrapper{
+            width: 700px;
+        }
+        &__subtitle{
+            font-size: 16px;
+        }
+        &__item{
+            max-width: 210px;
+        }
+        &__descr{
+            font-size: 12px;
+        }
+    }
+    .title{
+        &_left{
+           font-size: 22px;
+           line-height: 43px;
+        }
+    }
+    .consultation{
+    &__descr{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .feed-form{
+        width: 270px;
+    }
+    }
+    @media (max-width: 767px){
+        .header{
+            width: 500px;
+        }
+        .xs-hidden{
+            display: none;
+        }
+        .promo{
+            &__wrapper{
+                width: 500px;
+
+            }
+        }
+        .advantages{
+            &__wrapper{
+                width: 500px;
+            }
+            &__subtitle{
+                min-height: 50px;
+            }
+            &__descr{
+
+            }
+        }
+    }
+    @media (max-width: 575px){
+        .header{
+            width: 250px;
+            &__logo{
+                max-width: 50%;
+            }
+            &__phone{
+                font-size: 12px;
+            }
+            button{
+                width: 112px;
+                height: 26px;
+                font-size: 10px;
+
+            }
+            
+        }
+        .promo{
+            &__wrapper{
+                min-width: 70%;
+                text-align: center;
+            }
+            &__header{
+                font-size: 25px;
+            }
+            &__subheader{
+                font-size: 14px;
+            }
+            &__icons{
+                min-width: 330px;
+                font-size: 12px;
+            }
+            &__link{
+                font-size: 13px;
+            }
+        }
+    }
+}
+
