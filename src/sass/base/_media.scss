@@ -29,134 +29,158 @@
 }
 }
 @media (max-width: 991px){
+
     .header{
-        width: 700px;
-        &__logo{
-            max-width: 90%;
-        }
-        &__phone{
-            font-size: 16px;
-        }
-        button{
-            width: 140px;
-        }
+        max-width: 700px;
+        margin: 0 auto;
         
     }
-    .promo{
+   .promo{
         &__wrapper{
             width: 700px;
+            margin: 0 auto;
+            margin-top: 90px;
         }
-        &__header{
-            font-size: 34px;
-        }
-        &__subheader{
-            font-size: 18px;
-        }
-        &__icon{
-            font-size: 12px;
-        }
-        &__link{
-            font-size: 13px;
-        }
-    }
-    .button_main {
-        width: 250px;
-        height: 46px;
-        font-size: 13px;
-    }
-    .title{
-        font-size: 25px;
     }
     .advantages{
         &__wrapper{
             width: 700px;
-        }
-        &__subtitle{
-            font-size: 16px;
-        }
-        &__item{
-            max-width: 210px;
-        }
-        &__descr{
-            font-size: 12px;
+            margin: 0 auto;
+            margin-top: 60px;
         }
     }
     .title{
         &_left{
-           font-size: 22px;
-           line-height: 43px;
+            font-size: 30px;
         }
     }
     .consultation{
-    &__descr{
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .feed-form{
-        width: 270px;
-    }
+        &__descr{
+            font-size: 17px;
+        }
     }
     @media (max-width: 767px){
-        .header{
-            width: 500px;
-        }
         .xs-hidden{
+            
             display: none;
+        }
+        .header{
+            width:550px;
         }
         .promo{
             &__wrapper{
-                width: 500px;
-
+                width:550px;
+            }
+            &__header{
+                font-size: 35px;
+            }
+            &__subheader{
+                font-size: 18px;
+            }
+            &__icons{
+                margin-top: 35px;
             }
         }
+        .button_main{
+            margin-top: 25px;
+        }
         .advantages{
+            padding: 50px 0 50px 0;
             &__wrapper{
-                width: 500px;
+                width:550px;
+                flex-direction: column;
+                justify-content: center;
+                align-items:center;
             }
-            &__subtitle{
-                min-height: 50px;
+            &__item{
+                margin-top:27px;
             }
-            &__descr{
 
+            
+        }
+        .title{
+            &_left{
+                font-size: 23px;
+                line-height: 44px;
             }
         }
     }
     @media (max-width: 575px){
         .header{
-            width: 250px;
+            width:350px;
             &__logo{
-                max-width: 50%;
+                img{
+                    width: 86%;
+                }
             }
             &__phone{
-                font-size: 12px;
+                font-size: 15px;
             }
-            button{
-                width: 112px;
-                height: 26px;
-                font-size: 10px;
-
-            }
-            
         }
         .promo{
             &__wrapper{
-                min-width: 70%;
-                text-align: center;
+                width:350px;
             }
             &__header{
-                font-size: 25px;
+                text-align: center;
             }
             &__subheader{
-                font-size: 14px;
+                text-align: center;
             }
             &__icons{
-                min-width: 330px;
-                font-size: 12px;
+                width: 350px;
+                margin: 0 auto;
+            }
+            &__icon{
+                margin: 0 auto;
+                margin-top: 30px;
             }
             &__link{
                 font-size: 13px;
             }
+      
         }
-    }
-}
+        .advantages{
+            padding: 50px 0 50px 0;
+            &__wrapper{
+                width:350px;
+                margin-top: 10px;
+            }
+            &__subtitle{
+                margin-top: 12px;
+            }
+            
+        }
+        .button{
+            &_main{
+                width: 227px;
+                height: 43px;
+                font-size: 12px;
+            }
+            &_submit{
+                height: 43px;
+            }
+            }
+        .title{
+            font-size: 22px;
+            &_left{
+                display: none;
 
+            }
+
+        }
+        .consultation{
+            padding: 43px 0 52px 0;
+            &__descr{
+                font-size: 15px;
+            }
+        }
+        .feed-form{
+            input{
+                height: 42px;
+            }
+        }
+        
+    }
+
+}
